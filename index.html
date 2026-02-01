@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? 💕</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating hearts background -->
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+    <!-- Main content -->
+    <div class="container" id="mainContainer">
+        <h1 class="question">Riya, Will you be my Valentine?</h1>
+        
+        <div class="buttons">
+            <button class="btn btn-yes" id="yesBtn">Yes! 💕</button>
+            <button class="btn btn-no" id="noBtn">No</button>
+        </div>
+    </div>
+
+    <!-- Success screen (hidden initially) -->
+    <div class="success-screen" id="successScreen">
+        <h1 class="success-message">Yay! 🎉</h1>
+        <p class="success-text">I knew you'd say yes! ❤️</p>
+        <!-- GIF -->
+        <div class="gif-container" id="gifContainer">
+            <img src="ANIMATION.gif" alt="Us together">
+        </div>
+    </div>
+
+    <!-- Confetti canvas -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
